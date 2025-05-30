@@ -221,7 +221,11 @@
                   button.url || button.phone_number
                 }})</span
               >
-              <button @click="deleteButton(index)" class="text-red-500">
+              <button
+                type="button"
+                @click="deleteButton(index)"
+                class="text-red-500"
+              >
                 <TrashIcon class="w-4 h-4" />
               </button>
             </div>
